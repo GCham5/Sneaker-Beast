@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Posting</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="create_posting.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="nav">
+
+        <div class="nav-centered">
+            <a href="index.html" style="font-family: 'Lucida Console', sans-serif;">Sneaker Beast</a>
+        </div>
+
+        <a href="#Sneakers">Sneakers</a>
+
+        <div class="nav-right">
+            <a href="#about"><i class="material-icons">search</i></a>
+            <a><i class="material-icons" >person</i></a>
+        </div>
+
+    </div>
+
+    <div class="center">
+        <div class="input-card">
+            <div class="container">
+                <h1>Add A New Sneaker</h1>
+            </div>
+            
+            <div id="signUpForm">
+                <form action=" ">
+                    <div class="field">
+                        <label for="sneakerName">Sneaker Name: </label>
+                        <br>
+                        <input type="text" name="sneakerName" id="sneakerName">
+                    </div>
+    
+                    <div class="field">
+                        <label for="brand ">Brand: </label>
+                        <br>
+                        <select name="brand" id="brand ">
+                            <option value="adidas">Adidas</option>
+                            <option value="nike">Nike</option>
+                            <option value="yeezy">Yeezy</option>
+                            <option value="jordans">Jordans</option>
+                            <option value="reebok">Reebok</option>
+                            <option value="vans">Vans</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="year">Colorway: </label>
+                        <br>
+                        <input type="input" name="colorway" id="colorway">
+                    </div>
+    
+                    <div class="field">
+                        <label for="year">Release Date: </label>
+                        <br>
+                        <input type="date" name="releaseDate" id="releaseDate">
+                    </div>
+
+                    
+                    <div class="field">
+                        <label for="year">Location: </label>
+                        <br>
+                        <input type="input" name="location" id="location">
+                    </div>
+    
+                    <div class="field">
+                        <label for="size">Size: </label>
+                        <br>
+                        <select name="size" id="size ">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                        </select>
+                    </div>
+    
+                    <div class="field">
+                        <label for="rate">Rate: (per day) </label>
+                        <br>
+                        <input type="number" name="rate " id="rate ">
+                    </div>
+    
+                    <div class="field">
+                        <label for="description">Description: </label>
+                        <br>
+                        <textarea name="description" id="description" cols="50" rows="5"></textarea>
+                    </div>
+    
+                    <div class="field">
+                        <h3>Image: </h3>
+                            <img  style="width: 400px;" src="sneaker.jpeg" alt="Avatar" class="sneaker-image">
+                       
+                    </div>
+    
+                    <br>
+                    <div class="field">
+                        <button type="submit" id="submitButton">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        
+
+    </div>
+
+</body>
+
+</html>

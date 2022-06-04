@@ -1,0 +1,76 @@
+.main-container {
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-bottom: 100px;
+}
+
+.info-container {
+    margin-left: 75px;
+}
+
+.container {
+    margin-bottom: 2px;
+}
+
+.container h2 {
+    width: 100%;
+    border: 1px solid black;
+    background-color: #252323;
+    color: white;
+    padding: 10px;
+}
+
+.trait {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#listingCard {
+    display: flex;
+    align-items: center;
+    background-color: #fbfbfb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+#sneakerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fbfbfb;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 275px;
+}
+
+#sneakerDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.1px solid black;
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#sneakerInfo button {
+    width: 200px;
+    height: 50px;
+    color: #fbfbfb;
+    font-size: 20px;
+    border-radius: 15px;
+    /* background-color: #e6c0a6; */
+    cursor: pointer;
+}
+
+img {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}

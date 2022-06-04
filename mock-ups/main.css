@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Marcellus', serif;}
+
+p, button, a, label {font-family: 'Raleway', sans-serif;}
+
+
+body {
+    background-color: #F5F1ED;
+    margin: 0
+}
+
+button {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    color: #fbfbfb;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #744253;
+}
+
+.main-container {
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.input-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+}

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": null,
+    "password": null,
+    "database": null,
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": null,
+    "password": null,
+    "database": null,
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": null,
+    "password": null,
+    "database": null,
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
