@@ -1,7 +1,7 @@
 # project-team-chief
 ## Members
-Aman Riat (300056269)\
-Georges Chamoun (300060437)
+Aman Riat 
+Georges Chamoun 
 ## Outline
 
 We will be building a sneaker rental application. This application will allow users to rent sneakers. For example, a user can rent Adidas running shoes at a rate of 30$ per day. Users will be able to create accounts and browse for the sneakers they would like to rent. 
